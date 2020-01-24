@@ -1,0 +1,20 @@
+--
+POST
+    http://localhost:8082/authenticate
+BODY
+    {
+    	"userName":"user3",
+    	"password":"pwd3"
+    }
+
+RESPONSE
+    eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyMyIsImV4cCI6MTU3OTg3NzY3NCwiaWF0IjoxNTc5ODQxNjc0fQ.R8X4Da7K3E6hbhGQukWP06vkgzuMIzYxXbSNarJPej8
+
+--
+GET
+    http://localhost:8082/
+Content-Type    :   application/json
+Authorization   :   Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyMyIsImV4cCI6MTU3OTg3NzY3NCwiaWF0IjoxNTc5ODQxNjc0fQ.R8X4Da7K3E6hbhGQukWP06vkgzuMIzYxXbSNarJPej8
+
+RESPONSE
+    welcome...........
