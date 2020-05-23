@@ -18,3 +18,7 @@ Authorization   :   Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyMyIsImV4cCI6MTU3
 
 RESPONSE
     welcome...........
+
+--
+JWT Documentation link
+    https://jwt.io/introduction/
