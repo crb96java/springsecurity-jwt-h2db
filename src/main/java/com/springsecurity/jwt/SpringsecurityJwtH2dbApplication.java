@@ -34,9 +34,7 @@ public class SpringsecurityJwtH2dbApplication {
 
         userRepository.saveAll(users);
 
-        
     }
-
 
     @Bean
     public WebMvcConfigurer webMvcConfigurer(){
