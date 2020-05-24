@@ -33,6 +33,8 @@ public class SpringsecurityJwtH2dbApplication {
         ).collect(Collectors.toList());
 
         userRepository.saveAll(users);
+
+        
     }
 
 
